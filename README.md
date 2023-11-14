@@ -1,2 +1,3 @@
-# Unicorn_Rides_Web_App
- Web app project for Internet Programming class
+# wildrydes-site
+[Repo for the Project](https://github.com/gtjames/Unicorn-OG)
+[Conifg file where all the magic is stored](./js/config.js)
