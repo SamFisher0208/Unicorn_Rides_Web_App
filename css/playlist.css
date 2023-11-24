@@ -1,0 +1,64 @@
+legend,
+fieldset,
+select,
+textarea,
+input,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea {
+  border: 2px solid #333;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease-in-out;
+}
+
+input[type="text"],
+select,
+textarea {
+  font: 1.25rem / 1.5 sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+
+input:hover {
+  border: 2px solid #6c43cc;
+}
+
+#playlistForm {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.playlistContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playlistHeader {
+  color: white;
+}
