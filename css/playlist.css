@@ -2,8 +2,7 @@ legend,
 fieldset,
 select,
 textarea,
-input,
-button {
+input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -29,6 +28,8 @@ textarea {
   box-sizing: border-box;
   width: 100%;
   padding: 0.5rem 0.75rem;
+  background-color: #333;
+  color: white;
 }
 
 input:hover {
@@ -64,3 +65,13 @@ input:hover {
 .playlistHeader {
   color: white;
 }
+
+/* .btn {
+  background-color: #6c43cc;
+  border: #9775e8;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #50309c;
+} */
