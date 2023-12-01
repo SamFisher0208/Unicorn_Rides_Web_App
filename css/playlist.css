@@ -78,3 +78,12 @@ input:hover {
   background-color: #50309c;
   color: white;
 }
+
+.playlistNotify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
