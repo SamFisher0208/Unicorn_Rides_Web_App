@@ -158,9 +158,10 @@ var WildRydes = window.WildRydes || {};
       var cognitoUser = result.user;
       console.log("user name is " + cognitoUser.getUsername());
       var confirmation =
-        "Registration successful. You have been automatically verified. You will now redirected to the sign-in page.";
+        "Registration successful. You have been automatically verified. You will now redirected to the login page.";
       if (confirmation) {
         window.location.href = signinUrl;
+        alert(confirmation);
       }
     };
     var onFailure = function registerFailure(err) {
